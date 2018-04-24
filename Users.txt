@@ -1,0 +1,3 @@
+hdr,lge,200
+har,lge,-350
+jar,lfe,700
