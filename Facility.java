@@ -1,9 +1,11 @@
+import java.time.* ;
+
 public class Facilities {
 	
 	private int facilityID ;
 	private String facilityName ;
 	private int pricePerHour ;
-	private Date decomissionedUntilDate ;
+	private Localate decomissionedUntilDate ;
 	
 	Facility(int aFacilityID, String aFacilityName, int aPricePerHour, LocalDate aDecomissionUntilDate) {
 		facilityID = aFacilityID ;
